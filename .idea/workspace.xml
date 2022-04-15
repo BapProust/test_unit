@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43d8c5f9-c904-46a2-a793-18b7a6932b21" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/CI.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/CI.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CI.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Baptiste\Desktop\Test_Unit\.github\workflows" />
       <recent name="C:\Users\Baptiste\Desktop\Test_Unit\.github" />
       <recent name="C:\Users\Baptiste\Desktop\Test_Unit" />
     </key>
@@ -68,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650006756893</updated>
       <workItem from="1650006768914" duration="1554000" />
-      <workItem from="1650010574554" duration="2748000" />
+      <workItem from="1650010574554" duration="3085000" />
     </task>
     <task id="LOCAL-00001" summary="correction du code">
       <created>1650007700790</created>
@@ -91,7 +92,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650012266930</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="correct yml">
+      <created>1650013493922</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650013493922</updated>
+    </task>
+    <task id="LOCAL-00005" summary="refactor yml">
+      <created>1650013591752</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650013591752</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,7 +116,8 @@
     <MESSAGE value="correction du code" />
     <MESSAGE value="add dockerfile + CI.yml" />
     <MESSAGE value="correct yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct yml" />
+    <MESSAGE value="refactor yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor yml" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Test_Unit$main.coverage" NAME="main Coverage Results" MODIFIED="1650007539115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
