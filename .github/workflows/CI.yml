@@ -1,10 +1,15 @@
 name: CI
-on: [push]
+on: [ push ]
 jobs:
   test_build_run:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: docker login
+        env:
+          DOCKER_USER: ${{ secrets.DOCKER_USERNAME }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+        run: docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
       - name: Run tests
         run:
           pip install pytest
@@ -15,3 +20,9 @@ jobs:
       - name: run docker image
         run:
           docker run test
+      - name: docker tag
+        run:
+          docker tag test mondertime/test_unit:image_test
+      - name: push
+        run :
+          docker push mondertime/test_unit:image_test
