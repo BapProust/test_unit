@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43d8c5f9-c904-46a2-a793-18b7a6932b21" name="Default Changelist" comment="" />
+    <list default="true" id="43d8c5f9-c904-46a2-a793-18b7a6932b21" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/CI.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +31,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Baptiste\Desktop\Test_Unit\.github" />
       <recent name="C:\Users\Baptiste\Desktop\Test_Unit" />
     </key>
   </component>
@@ -65,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650006756893</updated>
       <workItem from="1650006768914" duration="1554000" />
-      <workItem from="1650010574554" duration="2404000" />
+      <workItem from="1650010574554" duration="2748000" />
     </task>
     <task id="LOCAL-00001" summary="correction du code">
       <created>1650007700790</created>
